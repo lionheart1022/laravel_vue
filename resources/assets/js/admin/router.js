@@ -80,6 +80,11 @@ const router = new Router({
                     name:'modules.contact',
                     component: require('./modules/components/ModuleLists')
                 },
+                {
+                    path:'detail',
+                    name:'module.detail',
+                    component: require('./modules/components/ModuleDetail')
+                },
             ]
         },
         

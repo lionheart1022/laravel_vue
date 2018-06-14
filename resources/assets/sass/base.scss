@@ -75,8 +75,12 @@ a.router-link.router-link-active > div {
 #admin .toolbar__content {
   background-color: white;
 }
-#admin .btn__content i.material-icons {
+#admin i.icon {
   color: #333333;
+}
+
+#admin aside i.icon {
+  color: white;
 }
 #admin .toolbar__title {
   color: #333333;
@@ -183,4 +187,22 @@ a.router-link.router-link-active > div {
 }
 #admin .input-group__input input, #admin .input-group__append-icon{
   color: grey;
+}
+
+#admin .md-layout {
+  border: 1px solid #e3e8ec;
+}
+
+#admin .usr-avatar {
+    position: absolute;
+    top: 60px;
+    border: 10px solid white;
+    left: 5px;
+}
+#admin .usr-img {
+  width: 100%;
+  height: 100%;
+}
+#admin .usr-name {
+  color: #3598cf;
 }

@@ -12,6 +12,7 @@
 
     <!-- Styles -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
     <link href="{{ asset('css/admin.css') }}" rel="stylesheet">
 
     <!-- app js values -->

@@ -34,6 +34,7 @@
                 :items="items"
                 :search="search"
                 v-model="selected"
+                disable-initial-sort
                 item-key="photo"
                 class="elevation-1"
                 select-all
@@ -66,7 +67,7 @@
                     <v-chip v-if="props.item.status" color="success" label small>{{props.item.status}}</v-chip>
                 </td>
                 <td style="display:inherit">
-                    <v-btn icon>
+                    <v-btn icon @click="$router.push({name:'module.detail'})">
                         <v-icon>edit</v-icon>
                     </v-btn>
                     <v-btn icon>
@@ -75,9 +76,6 @@
                 </td>
             </template>
         </v-data-table>
-        <div class="text-xs-center pt-2">
-            <v-pagination v-model="pagination.page" :length="pages"></v-pagination>
-        </div>
     </div>
 </template>
 
