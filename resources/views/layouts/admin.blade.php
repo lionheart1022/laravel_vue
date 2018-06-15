@@ -13,6 +13,7 @@
     <!-- Styles -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="{{ asset('css/admin.css') }}" rel="stylesheet">
 
     <!-- app js values -->
@@ -250,10 +251,14 @@
                 <transition name="fade">
                     <router-view></router-view>
                 </transition>
+                <v-footer>
+                    <v-layout row wrap class="px-3">
+                        <span>&copy; 2018 | OrgCentral,LTD | All Rights Reserved.</span>
+                    </v-layout>
+                    
+                </v-footer>
             </v-content>
-            <v-footer app fixed>
-                <span>&copy; 2017</span>
-            </v-footer>
+            
         </v-app>
 
         <!-- loader -->
