@@ -229,11 +229,20 @@ a.router-link.router-link-active > div {
 }
 
 #admin .card__title {
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #e3e8ec;
+  
+}
+#admin .card__text {
+  color: #999;
 }
 
 #admin .md-subtabs a.tabs__item--active {
   color: #329fd6;
+}
+
+#admin .radio-group {
+  padding-left: 160px;
+  padding-top: 0px;
 }
 
 #admin .radio-group .input-group__details {
@@ -269,5 +278,10 @@ a.router-link.router-link-active > div {
 
 #admin .footer {
   background: unset;
+
+}
+
+#admin .footer span {
+  color: #999;
 }
 

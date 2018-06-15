@@ -12,7 +12,7 @@
                 <v-flex xs12 sm6 md10 class="px-2">
                     <h1 class="usr-name">{{items.fname}} {{items.lname}}</h1>
                     <p>{{items.job}}&nbsp;&nbsp;|&nbsp;&nbsp;{{items.company}}&nbsp;&nbsp;|&nbsp;&nbsp;{{items.department}}</p>
-                    
+                    <br>
                     <p>
                         <v-icon>phone_iphone</v-icon>
                         914.330.214(cell)&nbsp;&nbsp;|&nbsp;&nbsp;914.241.524(home)&nbsp;&nbsp;|&nbsp;&nbsp;212.524.544(work)
@@ -22,7 +22,7 @@
                         <v-icon>mail_outline</v-icon>
                         {{items.email}}
                     </p>
-                    
+                    <br>
                     <p>
                         <v-icon>cake</v-icon>
                         03.11.2003&nbsp;&nbsp;
@@ -105,9 +105,9 @@
                                         <v-card-title>
                                             
                                             <v-icon>location_on</v-icon>
-                                            <span>{{item.title}}</span>
+                                            <span><strong>{{item.title}}</strong></span>
                                             <v-spacer></v-spacer>
-                                            <v-radio-group v-model="radiogroup" hide-details mandatory=false>
+                                            <v-radio-group v-model="radiogroup" hide-details>
                                                 <v-radio :key="item.key" :value="item.key"></v-radio>
                                             </v-radio-group>
                                             
