@@ -240,8 +240,12 @@ a.router-link.router-link-active > div {
   color: #329fd6;
 }
 
+#admin .subitem-title {
+  width: calc(100% - 36px);
+}
+
 #admin .radio-group {
-  padding-left: 160px;
+  float: left;
   padding-top: 0px;
 }
 

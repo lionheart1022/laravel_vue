@@ -103,9 +103,10 @@
                                 >
                                     <v-card>
                                         <v-card-title>
-                                            
-                                            <v-icon>location_on</v-icon>
-                                            <span><strong>{{item.title}}</strong></span>
+                                            <div class="subitem-title">
+                                                <v-icon>location_on</v-icon>
+                                                <span><strong>{{item.title}}</strong></span>
+                                            </div>
                                             <v-spacer></v-spacer>
                                             <v-radio-group v-model="radiogroup" hide-details>
                                                 <v-radio :key="item.key" :value="item.key"></v-radio>
