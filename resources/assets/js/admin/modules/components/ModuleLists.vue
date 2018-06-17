@@ -7,13 +7,13 @@
                 <v-flex xs12 sm12 class="px-2">
                     <h1>Contacts</h1>
                     <div class="heading-elements help-section">
-                            <a href="#"><v-icon>forum</v-icon></i>Help/Tips</a>                                  
+                            <a href="#"><v-icon>forum</v-icon>Help/Tips</a>                                  
                     </div>
                     <p>They say it's not what you know, it's who you know. With that in mind, here is the list of who you need to know. It is a veritable who's who of staffers, vendors, partners, local businesses and more. Use the search box to find who you need or, for advanced searches, you can find and filter folks by all manner of classifications.</p>
                 </v-flex>
             </v-layout>
         </v-card>
-        <!-- /description -->
+        <!-- search -->
         <v-flex xs12 sm12 dark class="px-2" style="display:flex">
             <span style="padding-top: 20px">Search:&nbsp;&nbsp;</span>
             <v-text-field

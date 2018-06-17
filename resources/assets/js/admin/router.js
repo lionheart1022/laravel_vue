@@ -87,6 +87,18 @@ const router = new Router({
                 },
             ]
         },
+        {
+            name: 'media',
+            path: '/media',
+            component: require('./media/Media'),
+            children: [
+                {
+                    path:'/',
+                    name:'media.media_library',
+                    component: require('./media/components/MediaLibrary')
+                },
+            ]
+        },
         
         {
             name: 'files',
